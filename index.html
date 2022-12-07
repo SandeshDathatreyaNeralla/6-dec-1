@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function seeYouLater(){
+			document.getElementById("one").setAttribute("type","number");
+			document.getElementById("one").setAttribute("placeholder","enter a number");
+			var create=document.createElement("button");
+			document.body.appendChild(create);
+		}
+	</script>
+</head>
+<body>
+<input id="one" placeholder="enter a string">
+<button onclick="seeYouLater()">submit</button>
+</body>
+</html>
